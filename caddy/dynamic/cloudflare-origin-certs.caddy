@@ -1,0 +1,3 @@
+*.your-dns.com, your-dns.com {
+    tls /certs/cloudflared.cert /certs/cloudflared.key
+}
