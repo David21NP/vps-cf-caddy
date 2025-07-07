@@ -1,3 +1,5 @@
 caddy/certs
 caddy/config
 caddy/data
+
+cloudflared/tunnel_token.txt

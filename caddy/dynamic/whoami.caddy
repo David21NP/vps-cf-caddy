@@ -1,0 +1,8 @@
+https://whoami.your-dns.com {
+        encode zstd gzip
+        handle_path /* {
+                reverse_proxy whoami:80
+        }
+        header -Server
+        try_files {path} /index.html /index.php
+}
